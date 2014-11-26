@@ -3,83 +3,48 @@
     <profile guid="3EEE9D67-7C29-49A9-8A75-46874505FA6C" name="Visual Studio" revision="3.01" lock="0">
         <description></description>
         <macros>
-            <macro name="FindAllReferences" guid="11F94867-1579-4778-ABDA-F839EBBE01EB" type="multikey">
-                <event type="keydown" keyname="LCTRL"></event>
-                <event type="keydown" keyname="K"></event>
-                <event type="keyup" keyname="K"></event>
-                <event type="keyup" keyname="LCTRL"></event>
-                <event type="keydown" keyname="R"></event>
-                <event type="keyup" keyname="R"></event>
+            <macro name="FindAllReferences" guid="11F94867-1579-4778-ABDA-F839EBBE01EB" type="singlekey">
+                <event type="key" keyname="F12"></event>
+                <event type="modifier" keyname="LGUI"></event>
+                <event type="modifier" keyname="SHIFT"></event>
             </macro>
-            <macro name="GotoDef" guid="9F3D8E86-AA6D-408F-AD73-C54D5E8BE5BE" type="multikey">
-                <event type="keydown" keyname="SECFN"></event>
-                <event type="keydown" keyname="LGUI"></event>
-                <event type="keydown" keyname="F12"></event>
-                <event type="keyup" keyname="F12"></event>
-                <event type="keyup" keyname="LGUI"></event>
-                <event type="keyup" keyname="SECFN"></event>
+            <macro name="GotoDef" guid="9F3D8E86-AA6D-408F-AD73-C54D5E8BE5BE" type="singlekey">
+                <event type="key" keyname="F12"></event>
+                <event type="modifier" keyname="LGUI"></event>
             </macro>
-            <macro name="NavBak" guid="9AEE2923-CBF0-4D3D-8441-7BF1DFF87A12" type="multikey">
-                <event type="keydown" keyname="LCTRL"></event>
-                <event type="keydown" keyname="MINUS"></event>
-                <event type="keyup" keyname="MINUS"></event>
-                <event type="keyup" keyname="LCTRL"></event>
+            <macro name="NavBak" guid="9AEE2923-CBF0-4D3D-8441-7BF1DFF87A12" type="singlekey">
+                <event type="key" keyname="MINUS"></event>
+                <event type="modifier" keyname="LCTRL"></event>
             </macro>
-            <macro name="NavFwd" guid="B0A89946-BB11-4EF2-9D35-52ECE4BEF749" type="multikey">
-                <event type="keydown" keyname="LSHIFT"></event>
-                <event type="keydown" keyname="LCTRL"></event>
-                <event type="keydown" keyname="MINUS"></event>
-                <event type="keyup" keyname="MINUS"></event>
-                <event type="keyup" keyname="LCTRL"></event>
-                <event type="keyup" keyname="LSHIFT"></event>
+            <macro name="NavFwd" guid="B0A89946-BB11-4EF2-9D35-52ECE4BEF749" type="singlekey">
+                <event type="key" keyname="MINUS"></event>
+                <event type="modifier" keyname="LCTRL"></event>
+                <event type="modifier" keyname="LSHIFT"></event>
             </macro>
-            <macro name="Run" guid="B561C240-CEE1-4EA2-A95C-2175C4E7D06C" type="multikey">
-                <event type="keydown" keyname="SECFN"></event>
-                <event type="keydown" keyname="F5"></event>
-                <event type="keyup" keyname="F5"></event>
-                <event type="keyup" keyname="SECFN"></event>
+            <macro name="Run" guid="B561C240-CEE1-4EA2-A95C-2175C4E7D06C" type="singlekey">
+                <event type="key" keyname="F5"></event>
             </macro>
-            <macro name="RunToCursor" guid="E7C7CB6F-99CD-44E7-B17D-42F4E162035C" type="multikey">
-                <event type="keydown" keyname="SECFN"></event>
-                <event type="keydown" keyname="LCTRL"></event>
-                <event type="keydown" keyname="F10"></event>
-                <event type="keyup" keyname="F10"></event>
-                <event type="keyup" keyname="LCTRL"></event>
-                <event type="keyup" keyname="SECFN"></event>
+            <macro name="RunToCursor" guid="E7C7CB6F-99CD-44E7-B17D-42F4E162035C" type="singlekey">
+                <event type="key" keyname="F10"></event>
+                <event type="modifier" keyname="LCTRL"></event>
             </macro>
-            <macro name="StepInto" guid="CD7E5743-08C4-452A-9917-B2F744F7BBDF" type="multikey">
-                <event type="keydown" keyname="SECFN"></event>
-                <event type="keydown" keyname="LGUI"></event>
-                <event type="keydown" keyname="F11"></event>
-                <event type="keyup" keyname="F11"></event>
-                <event type="keyup" keyname="LGUI"></event>
-                <event type="keyup" keyname="SECFN"></event>
+            <macro name="StepInto" guid="CD7E5743-08C4-452A-9917-B2F744F7BBDF" type="singlekey">
+                <event type="key" keyname="F11"></event>
+                <event type="modifier" keyname="LGUI"></event>
             </macro>
-            <macro name="StepOut" guid="6C45DE7F-B368-4B35-921A-5B7CB50F0900" type="multikey">
-                <event type="keydown" keyname="LSHIFT"></event>
-                <event type="keydown" keyname="SECFN"></event>
-                <event type="keydown" keyname="LGUI"></event>
-                <event type="keydown" keyname="F11"></event>
-                <event type="keyup" keyname="F11"></event>
-                <event type="keyup" keyname="LGUI"></event>
-                <event type="keyup" keyname="SECFN"></event>
-                <event type="keyup" keyname="LSHIFT"></event>
+            <macro name="StepOut" guid="6C45DE7F-B368-4B35-921A-5B7CB50F0900" type="singlekey">
+                <event type="key" keyname="F11"></event>
+                <event type="modifier" keyname="LGUI"></event>
+                <event type="modifier" keyname="LSHIFT"></event>
             </macro>
-            <macro name="StepOver" guid="D639630E-CEC3-4BC4-9DB8-716B4677E1AE" type="multikey">
-                <event type="keydown" keyname="SECFN"></event>
-                <event type="keydown" keyname="F10"></event>
-                <event type="keyup" keyname="F10"></event>
-                <event type="keyup" keyname="SECFN"></event>
+            <macro name="StepOver" guid="D639630E-CEC3-4BC4-9DB8-716B4677E1AE" type="singlekey">
+                <event type="key" keyname="F10"></event>
             </macro>
-            <macro name="ToggleBreakpoint" guid="D5D0DBD8-095E-4AB3-8444-85D59C41CCDB" type="multikey">
-                <event type="keydown" keyname="SECFN"></event>
-                <event type="keydown" keyname="F9"></event>
-                <event type="keyup" keyname="F9"></event>
-                <event type="keyup" keyname="SECFN"></event>
+            <macro name="ToggleBreakpoint" guid="D5D0DBD8-095E-4AB3-8444-85D59C41CCDB" type="singlekey">
+                <event type="key" keyname="F9"></event>
             </macro>
-            <macro name="TestMacro" guid="39797E1F-AE8A-43C7-A815-6FE3305A9B88" type="multikey">
-                <event type="keydown" keyname="E"></event>
-                <event type="keyup" keyname="E"></event>
+            <macro name="TestMacro" guid="39797E1F-AE8A-43C7-A815-6FE3305A9B88" type="singlekey">
+                <event type="key" keyname="E"></event>
             </macro>
         </macros>
         <assignments>
