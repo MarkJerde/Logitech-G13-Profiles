@@ -6,7 +6,7 @@
             <macro name="FindAllReferences" guid="11F94867-1579-4778-ABDA-F839EBBE01EB" type="singlekey">
                 <event type="key" keyname="F12"></event>
                 <event type="modifier" keyname="LGUI"></event>
-                <event type="modifier" keyname="SHIFT"></event>
+                <event type="modifier" keyname="LSHIFT"></event>
             </macro>
             <macro name="GotoDef" guid="9F3D8E86-AA6D-408F-AD73-C54D5E8BE5BE" type="singlekey">
                 <event type="key" keyname="F12"></event>
