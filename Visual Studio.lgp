@@ -8,9 +8,22 @@
                 <event type="modifier" keyname="LGUI"></event>
                 <event type="modifier" keyname="LSHIFT"></event>
             </macro>
+            <macro name="Undo" guid="2C290EF5-7BB4-4DA0-B823-17A3C49E3D34" type="singlekey">
+                <event type="key" keyname="Z"></event>
+                <event type="modifier" keyname="LCTRL"></event>
+            </macro>
             <macro name="GotoDef" guid="9F3D8E86-AA6D-408F-AD73-C54D5E8BE5BE" type="singlekey">
                 <event type="key" keyname="F12"></event>
                 <event type="modifier" keyname="LGUI"></event>
+            </macro>
+            <macro name="Redo" guid="24E808DD-BB5F-4545-AD26-2F4310F64476" type="singlekey">
+                <event type="key" keyname="Y"></event>
+                <event type="modifier" keyname="LCTRL"></event>
+            </macro>
+            <macro name="Save" guid="48F9EECF-966A-456F-8F51-3FFBF10BFC98" type="singlekey">
+                <event type="key" keyname="S"></event>
+                <event type="modifier" keyname="LCTRL"></event>
+                <event type="modifier" keyname="LSHIFT"></event>
             </macro>
             <macro name="NavBak" guid="9AEE2923-CBF0-4D3D-8441-7BF1DFF87A12" type="singlekey">
                 <event type="key" keyname="MINUS"></event>
@@ -20,6 +33,10 @@
                 <event type="key" keyname="MINUS"></event>
                 <event type="modifier" keyname="LCTRL"></event>
                 <event type="modifier" keyname="LSHIFT"></event>
+            </macro>
+            <macro name="Start" guid="C8E5D3EE-3B1A-4BC9-9535-09379A643BCB" type="singlekey">
+                <event type="key" keyname="F5"></event>
+                <event type="modifier" keyname="LCTRL"></event>
             </macro>
             <macro name="Run" guid="B561C240-CEE1-4EA2-A95C-2175C4E7D06C" type="singlekey">
                 <event type="key" keyname="F5"></event>
@@ -55,11 +72,21 @@
                 <event type="key" keyname="C"></event>
                 <event type="modifier" keyname="LCTRL"></event>
             </macro>
+            <macro name="M1" guid="DCF50AE2-0016-4381-0102-4F0F5A9E9803" type="function">
+                <event type="function" functionid="7"></event>
+            </macro>
+            <macro name="M2" guid="DCF50AE2-0016-4381-0002-4F0F5A9E9803" type="function">
+                <event type="function" functionid="8"></event>
+            </macro>
         </macros>
         <assignments>
+            <assignment gamekey="G3" shiftstate="1" macroguid="2C290EF5-7BB4-4DA0-B823-17A3C49E3D34" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G4" shiftstate="1" macroguid="9F3D8E86-AA6D-408F-AD73-C54D5E8BE5BE" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G5" shiftstate="1" macroguid="24E808DD-BB5F-4545-AD26-2F4310F64476" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G8" shiftstate="1" macroguid="48F9EECF-966A-456F-8F51-3FFBF10BFC98" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G9" shiftstate="1" macroguid="9AEE2923-CBF0-4D3D-8441-7BF1DFF87A12" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G13" shiftstate="1" macroguid="B0A89946-BB11-4EF2-9D35-52ECE4BEF749" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G15" shiftstate="1" macroguid="C8E5D3EE-3B1A-4BC9-9535-09379A643BCB" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G4" shiftstate="2" macroguid="B561C240-CEE1-4EA2-A95C-2175C4E7D06C" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G11" shiftstate="2" macroguid="D639630E-CEC3-4BC4-9DB8-716B4677E1AE" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G10" shiftstate="2" macroguid="6C45DE7F-B368-4B35-921A-5B7CB50F0900" playmode="oneshot" family="lhc"></assignment>
@@ -71,7 +98,10 @@
             <assignment gamekey="G17" shiftstate="1" macroguid="11F94867-1579-4778-ABDA-F839EBBE01EB" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G7" shiftstate="2" macroguid="39797E1F-AE8A-43C7-A815-6FE3305A9B88" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G18" shiftstate="2" macroguid="DCF50AE2-0011-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G1" shiftstate="1" macroguid="0491225A-FAAC-4044-BF0B-4ECFDFD82449" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G1" shiftstate="2" macroguid="0491225A-FAAC-4044-BF0B-4ECFDFD82449" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G23" shiftstate="1" macroguid="DCF50AE2-0016-4381-0002-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G23" shiftstate="2" macroguid="DCF50AE2-0016-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
         </assignments>
         <target>/Applications/Remote Desktop Connection 2.1.1.app</target>
         <signature key="/Applications" subkey="" value="Remote Desktop Connection 2.1.1.app" executable="Remote Desktop Connection 2.1.1.app" platform="osx"></signature>
