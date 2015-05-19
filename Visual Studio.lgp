@@ -78,6 +78,18 @@
             <macro name="M2" guid="DCF50AE2-0016-4381-0002-4F0F5A9E9803" type="function">
                 <event type="function" functionid="8"></event>
             </macro>
+            <macro name="Go to the next location in the list" guid="DCF50AE2-001A-4381-0102-4F0F5A9E9803" type="singlekey">
+                <event type="key" keyname="F8"></event>
+            </macro>
+            <macro name="Go to the previous location in the list" guid="DCF50AE2-001C-4381-0102-4F0F5A9E9803" type="singlekey">
+                <event type="key" keyname="F8"></event>
+                <event type="modifier" keyname="LSHIFT"></event>
+            </macro>
+            <macro name="Set Next Statement" guid="DCF50AE2-001E-4381-0102-4F0F5A9E9803" type="singlekey">
+                <event type="key" keyname="F10"></event>
+                <event type="modifier" keyname="LCTRL"></event>
+                <event type="modifier" keyname="LSHIFT"></event>
+            </macro>
         </macros>
         <assignments>
             <assignment gamekey="G3" shiftstate="1" macroguid="2C290EF5-7BB4-4DA0-B823-17A3C49E3D34" playmode="oneshot" family="lhc"></assignment>
@@ -102,6 +114,11 @@
             <assignment gamekey="G1" shiftstate="2" macroguid="0491225A-FAAC-4044-BF0B-4ECFDFD82449" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G23" shiftstate="1" macroguid="DCF50AE2-0016-4381-0002-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G23" shiftstate="2" macroguid="DCF50AE2-0016-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G27" shiftstate="1" macroguid="DCF50AE2-001A-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G29" shiftstate="1" macroguid="DCF50AE2-001C-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G27" shiftstate="2" macroguid="DCF50AE2-001A-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G29" shiftstate="2" macroguid="DCF50AE2-001C-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G22" shiftstate="2" macroguid="DCF50AE2-001E-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
         </assignments>
         <target>/Applications/Remote Desktop Connection 2.1.1.app</target>
         <signature key="/Applications" subkey="" value="Remote Desktop Connection 2.1.1.app" executable="Remote Desktop Connection 2.1.1.app" platform="osx"></signature>
