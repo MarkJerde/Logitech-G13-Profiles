@@ -3,6 +3,15 @@
 IFS="
 "
 
+if [ -d "/Applications/Jump Desktop.app" ]
+then
+	./retarget.sh "Visual Studio.lgp" "/Applications/Jump Desktop.app" "Visual Studio JumpDesktop"
+fi
+if [ -d "/Applications/Jump Desktop Beta.app" ]
+then
+	./retarget.sh "Visual Studio.lgp" "/Applications/Jump Desktop Beta.app" "Visual Studio JumpDesktopBeta"
+fi
+
 for profile in *.lgp
 do
 	guid=$(grep -F "<profile guid=\"" $profile|sed 's/.*<profile guid="//;s/".*//')
