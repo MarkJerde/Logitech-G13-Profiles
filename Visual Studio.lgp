@@ -67,10 +67,17 @@
             <macro name="TestMacro" guid="39797E1F-AE8A-43C7-A815-6FE3305A9B88" type="singlekey">
                 <event type="key" keyname="E"></event>
             </macro>
-            <macro name="CallStack" guid="DCF50AE2-0011-4381-0102-4F0F5A9E9803" type="singlekey">
-                <event type="key" keyname="C"></event>
-                <event type="modifier" keyname="LCTRL"></event>
-                <event type="modifier" keyname="LALT"></event>
+            <macro name="CallStack" guid="DCF50AE2-0011-4381-0102-4F0F5A9E9803" type="multikey">
+                <event type="keydown" keyname="LCTRL"></event>
+                <event type="keydown" keyname="LALT"></event>
+                <event type="keydown" keyname="c"></event>
+                <event type="keyup" keyname="c"></event>
+                <event type="keyup" keyname="LALT"></event>
+                <event type="keyup" keyname="LCTRL"></event>
+                <event type="keydown" keyname="SECFN"></event>
+                <event type="keydown" keyname="UP"></event>
+                <event type="keyup" keyname="UP"></event>
+                <event type="keyup" keyname="SECFN"></event>
             </macro>
             <macro name="Ctrl+C" guid="0491225A-FAAC-4044-BF0B-4ECFDFD82449" type="singlekey">
                 <event type="key" keyname="C"></event>
@@ -93,6 +100,30 @@
                 <event type="key" keyname="F10"></event>
                 <event type="modifier" keyname="LCTRL"></event>
                 <event type="modifier" keyname="LSHIFT"></event>
+            </macro>
+            <macro name="GoToCallStackParent" guid="E8ED4850-CE88-454F-9FC7-935E861A58A9" type="multikey">
+                <event type="keydown" keyname="LCTRL"></event>
+                <event type="keydown" keyname="LALT"></event>
+                <event type="keydown" keyname="c"></event>
+                <event type="keyup" keyname="c"></event>
+                <event type="keyup" keyname="LALT"></event>
+                <event type="keyup" keyname="LCTRL"></event>
+                <event type="keydown" keyname="DOWN"></event>
+                <event type="keyup" keyname="DOWN"></event>
+                <event type="keydown" keyname="ENTER"></event>
+                <event type="keyup" keyname="ENTER"></event>
+            </macro>
+            <macro name="GoToCallStackChild" guid="450E4338-9B15-4517-8BAD-822889D182F7" type="multikey">
+                <event type="keydown" keyname="LCTRL"></event>
+                <event type="keydown" keyname="LALT"></event>
+                <event type="keydown" keyname="c"></event>
+                <event type="keyup" keyname="c"></event>
+                <event type="keyup" keyname="LALT"></event>
+                <event type="keyup" keyname="LCTRL"></event>
+                <event type="keydown" keyname="UP"></event>
+                <event type="keyup" keyname="UP"></event>
+                <event type="keydown" keyname="ENTER"></event>
+                <event type="keyup" keyname="ENTER"></event>
             </macro>
         </macros>
         <assignments>
@@ -121,7 +152,9 @@
             <assignment gamekey="G23" shiftstate="2" macroguid="DCF50AE2-0016-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G27" shiftstate="1" macroguid="DCF50AE2-001A-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G29" shiftstate="1" macroguid="DCF50AE2-001C-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G26" shiftstate="2" macroguid="450E4338-9B15-4517-8BAD-822889D182F7" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G27" shiftstate="2" macroguid="DCF50AE2-001A-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
+            <assignment gamekey="G28" shiftstate="2" macroguid="E8ED4850-CE88-454F-9FC7-935E861A58A9" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G29" shiftstate="2" macroguid="DCF50AE2-001C-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
             <assignment gamekey="G22" shiftstate="2" macroguid="DCF50AE2-001E-4381-0102-4F0F5A9E9803" playmode="oneshot" family="lhc"></assignment>
         </assignments>
