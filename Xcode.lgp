@@ -41,8 +41,9 @@
                 <event type="key" keyname="R"></event>
                 <event type="modifier" keyname="LGUI"></event>
             </macro>
-            <macro name="Run" guid="C240B561-CEE1-4EA2-A95C-2175C4E7D06C" type="singlekey">
-                <event type="key" keyname="R"></event>
+            <macro name="Continue" guid="C240B561-CEE1-4EA2-A95C-2175C4E7D06C" type="singlekey">
+                <event type="key" keyname="Y"></event>
+                <event type="modifier" keyname="LCTRL"></event>
                 <event type="modifier" keyname="LGUI"></event>
             </macro>
             <macro name="RunToCursor" guid="CB6FC7E7-99CD-44E7-B17D-42F4E162035C" type="singlekey">
