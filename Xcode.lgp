@@ -5,8 +5,8 @@
         <macros>
             <macro name="FindAllReferences" guid="4867F119-1579-4778-ABDA-F839EBBE01EB" type="singlekey">
                 <event type="key" keyname="F"></event>
-                <event type="modifier" keyname="LALT"></event>
                 <event type="modifier" keyname="LCTRL"></event>
+                <event type="modifier" keyname="LSHIFT"></event>
                 <event type="modifier" keyname="LGUI"></event>
             </macro>
             <macro name="Undo" guid="0EF52C29-7BB4-4DA0-B823-17A3C49E3D34" type="singlekey">
