@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile gkeysdk="0" guid="{574A2E4A-ECAC-4929-88E3-9CAE306A9541}" lock="0" name="debian.exe (1)">
+    <description></description>
+    <target path="C:\PROGRAM FILES\WINDOWSAPPS\THEDEBIANPROJECT.DEBIANGNULINUX_1.1.4.0_X64__76V4GFSZ19HV4\DEBIAN.EXE"/>
+    <signature key="" value="" executable="" name=""/>
+    <macros>
+      <macro original="true" guid="{B0E6783F-0625-4D95-8F9A-58937BBF2E56}" hidden="false" name="Copy">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="INSERT"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{E9A414AF-B05F-422A-9F84-0357C92E7026}" hidden="false" name="LCTRL">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{E7AFB89B-C67F-4C4D-BB8D-F56C7F737A60}" hidden="false" name="LALT">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LALT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{6C647948-52E5-4D8B-9CC7-971B11B220B8}" hidden="false" name="Right Click">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.LeftHandedController">
+      <assignment original="true" backup="false" contextid="G1" shiftstate="1" macroguid="{B0E6783F-0625-4D95-8F9A-58937BBF2E56}"/>
+      <assignment original="true" backup="false" contextid="G2" shiftstate="1" macroguid="{6C647948-52E5-4D8B-9CC7-971B11B220B8}"/>
+    </assignments>
+    <backlight devicemodel="Logitech.Gaming.LeftHandedController.G13">
+      <mode shiftstate="1" color="#ffffff"/>
+      <mode shiftstate="2" color="#ff0400"/>
+      <mode shiftstate="3" color="#ea00ff"/>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>

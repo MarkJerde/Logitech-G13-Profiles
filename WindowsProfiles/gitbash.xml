@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile gkeysdk="0" guid="{404FF3C9-E975-4E1B-BD10-D8B8965701D0}" lock="0" name="Git Bash">
+    <description></description>
+    <target path="C:\PROGRAM FILES\GIT\USR\BIN\MINTTY.EXE"/>
+    <signature key="" value="" executable="" name=""/>
+    <macros>
+      <macro original="true" guid="{4BC34888-2E05-4D5A-9E2A-12176766F784}" hidden="false" name="Copy">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="INSERT"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{0CB0BD0C-6BD2-4C4E-A6D9-F5E186113473}" hidden="false" name="Paste">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="INSERT"/>
+          <modifier value="LSHIFT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{AAACFEDC-4E72-4861-899E-2A918DD8D876}" hidden="false" name="Q">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="Q"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{E9A414AF-B05F-422A-9F84-0357C92E7026}" hidden="false" name="LCTRL">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{3FC91F96-4BC4-48B8-AFF4-DF8CF95B0F11}" hidden="false" name="SPACEBAR">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="SPACEBAR"/>
+        </keystroke>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.LeftHandedController">
+      <assignment original="true" backup="false" contextid="G1" shiftstate="1" macroguid="{4BC34888-2E05-4D5A-9E2A-12176766F784}"/>
+      <assignment original="true" backup="false" contextid="G2" shiftstate="1" macroguid="{0CB0BD0C-6BD2-4C4E-A6D9-F5E186113473}"/>
+      <assignment original="true" backup="false" contextid="G22" shiftstate="1" macroguid="{3FC91F96-4BC4-48B8-AFF4-DF8CF95B0F11}"/>
+    </assignments>
+    <backlight devicemodel="Logitech.Gaming.LeftHandedController.G13">
+      <mode shiftstate="1" color="#ffffff"/>
+      <mode shiftstate="2" color="#ff0400"/>
+      <mode shiftstate="3" color="#ea00ff"/>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>
