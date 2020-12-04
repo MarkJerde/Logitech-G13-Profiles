@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile gkeysdk="0" guid="{71DC1B7A-B433-44C5-BB15-45CCBFBA2A90}" lock="0" name="Visio 2013">
+    <description>Visio 2013</description>
+    <target path="C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\OFFICE15\VISIO.EXE"/>
+    <signature key="" value="" executable="" name=""/>
+    <macros>
+      <macro original="true" guid="{FD83ABF8-06B3-4B3E-A3BC-E384ED87EA0E}" hidden="false" name="LCTRL">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{2EA42BC1-6679-48E3-90A9-213309F61406}" hidden="false" name="Ctrl + Alt + Delete">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="DELETE"/>
+          <modifier value="LCTRL"/>
+          <modifier value="LALT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{E7FFB4E5-C83E-48C2-9547-44D96095E300}" hidden="false" name="Enter">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="ENTER"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{93F34A3F-7081-4D53-A99D-E858D4D86800}" hidden="false" name="Joystick">
+        <joystick xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Joystick"/>
+      </macro>
+      <macro original="true" guid="{3159BC7C-4015-4502-86F3-06E635CD42CA}" hidden="false" name="Scroll Right">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="scrollright"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" guid="{C896583E-4007-4A1B-AB5C-5942838A6275}" hidden="false" name="Scroll Up">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="scrollup"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" guid="{BD3B06B1-AE80-47CA-9319-7855444FB7B2}" hidden="false" name="Scroll Down">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="scrolldown"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" guid="{A9E3E21A-8E10-443A-9674-20B4C6A955DE}" hidden="false" name="Scroll Left">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="scrollleft"/>
+        </mousefunction>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.LeftHandedController">
+      <assignment original="true" backup="false" contextid="G20" shiftstate="1" macroguid="{2EA42BC1-6679-48E3-90A9-213309F61406}"/>
+      <assignment original="true" backup="false" contextid="G21" shiftstate="1" macroguid="{E7FFB4E5-C83E-48C2-9547-44D96095E300}"/>
+      <assignment original="true" backup="false" contextid="G20" shiftstate="2" macroguid="{2EA42BC1-6679-48E3-90A9-213309F61406}"/>
+      <assignment original="true" backup="false" contextid="G21" shiftstate="2" macroguid="{E7FFB4E5-C83E-48C2-9547-44D96095E300}"/>
+      <assignment original="true" backup="false" contextid="G27" shiftstate="1" macroguid="{3159BC7C-4015-4502-86F3-06E635CD42CA}"/>
+      <assignment original="true" backup="false" contextid="G29" shiftstate="1" macroguid="{A9E3E21A-8E10-443A-9674-20B4C6A955DE}"/>
+      <assignment original="true" backup="false" contextid="G28" shiftstate="1" macroguid="{BD3B06B1-AE80-47CA-9319-7855444FB7B2}"/>
+      <assignment original="true" backup="false" contextid="G26" shiftstate="1" macroguid="{C896583E-4007-4A1B-AB5C-5942838A6275}"/>
+    </assignments>
+    <backlight devicemodel="Logitech.Gaming.LeftHandedController.G13">
+      <mode shiftstate="1" color="#ffffff"/>
+      <mode shiftstate="2" color="#ff0400"/>
+      <mode shiftstate="3" color="#ea00ff"/>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>
